@@ -114,6 +114,7 @@
                 </env>
                 <from>${docker.from}</from>
                 <assembly>
+                  <basedir>/app</basedir>
                   <descriptorRef>${docker.assemblyDescriptorRef}</descriptorRef>
                 </assembly>
               </build>
